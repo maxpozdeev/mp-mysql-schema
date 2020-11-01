@@ -1,0 +1,27 @@
+{
+  "name": "mp-mysql-schema",
+  "version": "1.0.0",
+  "description": "Get MySQL database schema (structure of tables and indexes) for easier comparison",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mytables": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "engines": {
+    "node": ">= 13.2.0"
+  },
+  "author": "Max Pozdeev <maxpozdeev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mysql2": "^2.2.0",
+    "readline-sync": "^1.4.10",
+    "yargs": "^16.1.0"
+  }
+}
